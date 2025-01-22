@@ -26,7 +26,6 @@ function generateWord() {
         .then(data => {
             // `data` is an array of words
             word = data[0];
-            console.log(word);
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
